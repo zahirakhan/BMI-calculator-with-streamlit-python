@@ -23,8 +23,8 @@ st.title("⚖️ BMI Calculator")
 load_css()
 
 
-weight = st.number_input("Enter your weight (kg)", min_value=1.0, step=0.1)
-height = st.number_input("Enter your height (m)", min_value=0.5, step=0.01)
+weight = st.number_input("Enter your weight (kg)", min_value=0.0, step=0.1)
+height = st.number_input("Enter your height (m)", min_value=0.0, step=0.01)
 
 if st.button("Calculate BMI", key="bmi_btn"):
     if height > 0:
