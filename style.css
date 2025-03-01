@@ -1,0 +1,27 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+
+.stNumberInput input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+
+.stButton>button {
+    width: 100%; 
+    background: linear-gradient(45deg, #ff00ff, #6200ea, #00d4ff);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
